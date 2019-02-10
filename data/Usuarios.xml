@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+  <Usuario correo="urko@urko.com">
+    <NombreUsuario>urko</NombreUsuario>
+    <password>urko</password>
+    <TipoUsuario>Vendedor</TipoUsuario>
+  </Usuario>
+  <Usuario correo="ini@ini.com">
+    <NombreUsuario>ini</NombreUsuario>
+    <NombreUsuario>ini</NombreUsuario>
+    <password>ini</password>
+    <TipoUsuario>Comprador</TipoUsuario>
+  </Usuario>
+  <Usuario correo="hurta@hurta.com">
+    <Nombre>hurta</Nombre>
+    <NombreUsuario>hurta</NombreUsuario>
+    <password>hurta</password>
+    <TipoUsuario>Comprador</TipoUsuario>
+  </Usuario>
+</usuarios>

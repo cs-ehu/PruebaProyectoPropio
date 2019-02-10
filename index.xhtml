@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Index</title>
+		<link href="stilo/index.css" rel="stylesheet" type="text/css"/>
+		
+	</head>
+	<body>
+		<header class="header"> 
+				<ul>
+					<li> <a href="index.xhtml"><img alt="imgLogo" src="img/logo.jpg" class="logo"/></a></li>
+					<li> <span class="logoTexto">GRUPO 12</span></li>
+				</ul>
+				<ul class="cabecera">
+					<li><a href="Ordenadores.php">Ordenadores</a></li>
+					<li><a href="Smartphones.php">Smartphones</a></li>
+					<li><a href="Consolas.php">Consolas</a></li>
+					<li><a href="Registro.php">Registro</a></li>
+					<li><a href="Login.php">Login</a></li>
+					<li><a href="Logout.php">Logout</a></li>
+				</ul>
+			
+		</header>
+		<form>
+		<div class="slideshow-container" >
+
+		<div class="mySlides fade">
+ 		 <div class="numbertext">1 / 4</div>
+ 		 <a href="Ordenadores.php"><img src="img/1.jpg" alt="sliderIndex" style="width:100%"/></a>
+ 		 <div class="text">Ordenadores</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 4</div>
+		  <a href="Smartphones.php"><img src="img/2.jpg" alt="sliderIndex" style="width:100%"/></a>
+		  <div class="text">Smartphones</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 4</div>
+		  <a href="Consolas.php"><img src="img/3.jpg" alt="sliderIndex" style="width:100%"/></a>
+		  <div class="text">Consolas</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">4 / 4</div>
+		  <a href="VerOrdenadores.php"><img src="img/4.jpg" alt="sliderIndex" style="width:100%"/></a>
+		  <div class="text">CompraVenta</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+
+		<br/>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span> 
+		</div>
+		</form>
+
+		<footer class="footer">
+			<p style="font-size: 20px;">¿Quienes somos?</p>
+			<p>Somos el grupo 12 de SAR y hemos realizado esta catálogo online de tecnología.</p>
+		</footer>
+
+		<!-- Script de las fotos -->
+		<script type="text/javascript">
+//<![CDATA[
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+//]]>
+</script>
+	</body>
+</html>

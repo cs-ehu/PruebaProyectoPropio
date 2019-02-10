@@ -1,0 +1,100 @@
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.header li {
+  font-size: 25px;
+  float: left;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+.header li a:hover:not(.active) {
+  background-color: green;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+body {
+  background-image: url("http://localhost/PracticaGeneral3/img/fondo.jpg");
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.form p{
+  color: green;
+}
+.logo{
+  height: 80px;
+  width: 90px;
+  width: 100%;
+}
+.logoTexto{
+  font-size: 40px;
+  padding-top: 50px;
+  padding-left: 500px;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#NOrdenadores{
+  background-color: #A9F5BC;
+  width: 4%;
+  color: black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}

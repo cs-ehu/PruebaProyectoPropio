@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ordenadores>
+  <Ordenador>
+    <Nombre>xs200</Nombre>
+    <Marca>hp</Marca>
+    <Precio>50</Precio>
+  </Ordenador>
+  <Ordenador>
+    <Nombre>zzzttr</Nombre>
+    <Marca>ALY</Marca>
+    <Precio>90</Precio>
+  </Ordenador>
+  <Ordenador>
+    <Nombre>aasad</Nombre>
+    <Marca>adasd</Marca>
+    <Precio>70</Precio>
+  </Ordenador>
+</Ordenadores>
